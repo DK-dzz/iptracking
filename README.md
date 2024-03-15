@@ -32,17 +32,17 @@ You can download from Release page
 
 - Build and run.
   ```
-#Linux Build And run
-GOOS=linux   GOARCH=amd64 go build -o iptracking-amd64-linux  iptracking.go
-./iptracking-amd64-linux
+  Linux Build And run
+  GOOS=linux   GOARCH=amd64 go build -o iptracking-amd64-linux  iptracking.go
+  ./iptracking-amd64-linux
 
-#darwin Build And run
-GOOS=darwin   GOARCH=amd64 go build -o iptracking-amd64-darwin  iptracking.go
-./iptracking-amd64-darwin
+  Darwin Build And run
+  GOOS=darwin   GOARCH=amd64 go build -o iptracking-amd64-darwin  iptracking.go
+  ./iptracking-amd64-darwin
 
-#windows Build And run
-GOOS=windows   GOARCH=amd64 go build -o iptracking-amd64-windows  iptracking.go
-iptracking-amd64-windows.exe
+  Windows Build And run
+  GOOS=windows   GOARCH=amd64 go build -o iptracking-amd64-windows  iptracking.go
+  iptracking-amd64-windows.exe
 
   ```
 
